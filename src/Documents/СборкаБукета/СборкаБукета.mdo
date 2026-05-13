@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e123124d-1297-49c7-bc59-c5b5be75c595">
+  <producedTypes>
+    <objectType typeId="50d56c9a-926e-4084-bcef-47d1cead657d" valueTypeId="00ec4804-4bb7-41d9-89f8-b14e75b8217b"/>
+    <refType typeId="c436554c-5259-4981-acaa-415de759c6ad" valueTypeId="af45f1a2-d856-4d1d-a9b8-884609e33b9f"/>
+    <selectionType typeId="aadd5beb-1305-48b2-a75f-cfcc10bc3fab" valueTypeId="88b846e4-9d0c-4b5c-b3d9-73c33e49dfdf"/>
+    <listType typeId="b1e849e5-ed49-429e-a94e-43fb39269a8d" valueTypeId="e5893f88-8ca0-4a7d-a58d-922d2f4e9232"/>
+    <managerType typeId="075abd82-42ad-4f37-8a5a-bb2f0f2381db" valueTypeId="586dc582-9ac0-47a0-ac04-21e684e59359"/>
+  </producedTypes>
+  <name>СборкаБукета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сборка букета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СборкаБукета.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="7d1c8f59-3475-4749-b04a-6cecc05fedc8">
+    <name>Букет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Букет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0869c615-dfa3-4f3f-879c-1c41ad1034fc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1fad646-a9a5-4dc8-ab5a-f97ca90ec391">
+    <name>Сборщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9595f0cb-90e9-46ab-a5d5-7b0824351e4f">
+    <producedTypes>
+      <objectType typeId="de72178d-a2f2-491f-93ca-a9ce0e7d15f1" valueTypeId="eabc5e03-12f7-4e69-90a5-577e6b96853f"/>
+      <rowType typeId="b3c28106-c96f-4710-bd58-716b666ba145" valueTypeId="36d67b5f-cae8-425f-9333-402b11366bb2"/>
+    </producedTypes>
+    <name>СоставБукета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав букета</value>
+    </synonym>
+    <attributes uuid="40b1b646-76c9-4727-a42a-d58814e33c56">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b240e7e5-9436-4139-8269-0e656854157b">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

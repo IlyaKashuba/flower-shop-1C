@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e825c58-c43b-4186-9719-ff57cd7fb1a4">
+  <name>ЦветочныйМагазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цветочный магазин</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c2bd33c0-978e-4d00-b70c-ee7c515951a7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="94ce90d7-725a-4885-a207-5321e268de20"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7e30a072-2de0-413b-9b34-71878f3a8a1f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="55582d81-723e-49d1-a0e1-4d8a36fc1d02"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="32210abb-9d36-419b-91a6-9a419ebaaed1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d4663664-5c7b-4e9e-b2c1-3f4e89172809"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="89a081c5-6a57-4b9b-8418-a1d44457906d"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="ffd47af6-00c8-49ce-89c8-3afa93b61b41">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.УчетТоваров</subsystems>
+  <subsystems>Subsystem.ПродажаТоваров</subsystems>
+  <commonModules>CommonModule.РаботасДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <documents>Document.СборкаБукета</documents>
+  <documents>Document.Продажа</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.УсловияХранения</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.РеестрДокументовПродажа</reports>
+  <reports>Report.ВыручкаПоКассирам</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.Универсальный</reports>
+  <reports>Report.ВыручкаПоТоварам</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+</mdclass:Configuration>

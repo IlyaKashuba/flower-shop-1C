@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="364c6655-bd63-48dd-ba3c-5f78b0d3bea9">
+  <producedTypes>
+    <objectType typeId="fbb5b943-4bb2-4336-b164-da4774aadfea" valueTypeId="487d3e2e-72ad-4072-a2eb-3ece4ad69fb8"/>
+    <refType typeId="6b464c77-87a7-420f-b889-a4c6846f3771" valueTypeId="2260d4f3-f561-4222-a457-3ed641bcdafc"/>
+    <selectionType typeId="a3c0d61f-c85e-456e-be6f-530cb4d44285" valueTypeId="84db8990-5e19-438c-9f6c-736f59b22ce6"/>
+    <listType typeId="b72abb92-e241-4edd-b7fd-ad170318c346" valueTypeId="1e03f1c1-7e93-4ea4-b696-b6f2d2057271"/>
+    <managerType typeId="aa9ce5eb-8b4d-47df-9a69-fccd643bb629" valueTypeId="d237e9b6-3dc1-42a7-b705-3f7bed2f7614"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7bf018b8-6a5f-4f1b-a249-38a415b1746a">
+    <name>КонтактныйТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>17</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask>9 (999) 999 99 99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>                 </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

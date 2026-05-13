@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="947831d2-fa59-4e1a-8743-1680071a2ad4">
+  <producedTypes>
+    <selectionType typeId="19b9d7f5-5f9d-41cc-84d6-e808d0597e90" valueTypeId="026d5f18-5c57-4108-832b-1dbe3b2b90f5"/>
+    <listType typeId="0afbe27e-5f93-4a05-bb91-c9a81424d472" valueTypeId="20319ceb-152f-46db-b831-320b5d38a948"/>
+    <managerType typeId="c346d210-979f-4527-9025-34d38e797c66" valueTypeId="7a807e65-8bc6-416a-b55d-99b568e38b4d"/>
+    <recordSetType typeId="f0a0360f-e5e0-4f0b-aa36-af6310bd0c4b" valueTypeId="ca015d6d-3b79-4929-a8f2-13a4164633f0"/>
+    <recordKeyType typeId="40eaa5f7-8f71-40e3-8e1e-e39591112ab5" valueTypeId="8f377ab5-2699-44e7-a07a-4633d039d4b6"/>
+    <recordType typeId="924b2c2e-6ac8-47fd-b8ed-fe09976252c5" valueTypeId="0f34e55e-2eb9-47d1-8aaa-a9581eb4296a"/>
+  </producedTypes>
+  <name>СтоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру стоимость товаров</value>
+  </extendedListPresentation>
+  <resources uuid="acab62b8-2752-4ea9-868d-6bc85d7b9723">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="793455b4-db8d-4959-b71c-941036c518a7">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

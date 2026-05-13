@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9240a215-243a-4be1-8547-747594cc8ceb">
+  <producedTypes>
+    <refType typeId="75c70710-dff3-496d-8f84-17aaaafef1f1" valueTypeId="ef120964-4f10-4217-8d86-277e2fc31262"/>
+    <listType typeId="4b63d81b-79b5-4c5c-b429-f8fd475daaee" valueTypeId="0553bbcb-bef4-46a8-8b75-335dc510b0a3"/>
+    <managerType typeId="2448a258-ee41-4e9e-be85-d27686a91d56" valueTypeId="d9fe5a25-77ab-48d8-82da-b0b80a95b786"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="997a2896-3b2a-4683-9d70-a55d5839db86">
+    <name>СрезанныйЦветок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срезанный цветок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1ef9915-f16f-4337-b12a-823bd15f63c9">
+    <name>ГотовыйБукет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовый букет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82ac5914-51d9-4550-b683-8784090f8c73">
+    <name>ГоршечноеРастение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Горшечное растение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1634a521-8766-4c2f-88d1-cd0b38c307a1">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62a32403-e43a-4f18-ad51-77d4d1606252">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9d3d2ec-fd77-47c8-9609-9dc6b36f99d8">
+    <name>МягкаяИгрушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мягкая игрушка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12716ce0-1612-42b2-86e7-bdba35cbda11">
+  <producedTypes>
+    <objectType typeId="695dac13-4392-47b5-bc9e-8ec58bb93812" valueTypeId="c5245933-7c9c-40e2-89ac-55c790222b08"/>
+    <managerType typeId="16f9916a-b67d-4ff3-88e1-da02ea36952e" valueTypeId="67eac410-1b26-4c72-a321-6ef182b8a7b5"/>
+  </producedTypes>
+  <name>ВыручкаПоКассирам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выручка по кассирам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВыручкаПоКассирам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по выручке от всех кассиров</value>
+  </extendedPresentation>
+  <templates uuid="27e3eae3-cbb4-4636-8139-e606ccfbad05">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

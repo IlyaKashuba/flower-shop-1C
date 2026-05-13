@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="166a6875-c3e8-43b2-a36b-0b2abbd942c2">
+  <name>ПродажаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа товаров</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Клиенты</content>
+  <content>Document.СборкаБукета</content>
+  <content>Document.Продажа</content>
+  <content>Report.РеестрДокументовПродажа</content>
+  <content>Report.РейтингКлиентов</content>
+  <content>Report.ВыручкаПоКассирам</content>
+  <content>Report.Универсальный</content>
+  <content>Report.ВыручкаПоТоварам</content>
+  <content>AccumulationRegister.Продажи</content>
+</mdclass:Subsystem>

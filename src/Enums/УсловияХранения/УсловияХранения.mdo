@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="804ae7fb-79f2-4dd4-b439-b80fc04eb1ae">
+  <producedTypes>
+    <refType typeId="46edee0c-3643-4c5f-8bc0-eca007f22778" valueTypeId="4d0ed82f-cd24-4848-93a4-571e62308988"/>
+    <listType typeId="ea3f8628-6d98-4a26-ba69-317abd2d63b1" valueTypeId="9d8df574-831f-4ab4-ac35-8d3d6294bc9c"/>
+    <managerType typeId="e3127287-d05f-4f68-9e2a-76e994f1d44e" valueTypeId="24361c6f-0797-432d-9c17-26344baa9878"/>
+  </producedTypes>
+  <name>УсловияХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия хранения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dfb001a0-e37e-429e-a86b-7e0d2e8e44ad">
+    <name>Холод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="417a6f19-aef2-4959-92f3-e7a78de6633b">
+    <name>Тепло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тепло</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c50bb619-77fe-4177-917f-78013b3617e2">
+    <name>НеИмеетЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не имеет значения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
