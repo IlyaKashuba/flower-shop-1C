@@ -113,6 +113,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="34f36231-ce35-43e4-8051-e0fd57f9d011">
     <name>ВидНоменклатуры</name>
     <synonym>
@@ -164,4 +165,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="f9e617a6-8f47-4fa0-9c46-ebe8d20cac2e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

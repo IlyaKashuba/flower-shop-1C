@@ -48,6 +48,8 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <documents>Document.СборкаБукета</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.ПриходнаяНакладная</documents>
@@ -61,8 +63,10 @@
   <reports>Report.Универсальный</reports>
   <reports>Report.ВыручкаПоТоварам</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
   <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>

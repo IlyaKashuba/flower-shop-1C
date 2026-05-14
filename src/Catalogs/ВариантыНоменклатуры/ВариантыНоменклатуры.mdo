@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c091e3f8-1203-463e-a60f-43a7b2ed2900">
+  <producedTypes>
+    <objectType typeId="8be10560-4492-44ab-b75d-1038fd004dca" valueTypeId="f54b5062-045e-46f1-bc07-11c691847fd5"/>
+    <refType typeId="c0ae00cd-908f-477a-ad33-6ceee63c3a89" valueTypeId="7decc8a6-e8fb-4d47-a828-d5f644b4166e"/>
+    <selectionType typeId="493a4796-3fcf-4699-98f0-de1f98631086" valueTypeId="bb224678-2736-485b-9a67-25c301ed1615"/>
+    <listType typeId="0b89839f-d98b-49e3-8c95-9a2a037e1b1a" valueTypeId="b3b96b28-ea96-4cf5-8b49-c88194922c0b"/>
+    <managerType typeId="b40524af-358e-4681-ac57-1f9e7dfd03b8" valueTypeId="437b8dcf-aa63-48b7-8910-d7ca4f2d53c5"/>
+  </producedTypes>
+  <name>ВариантыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВариантыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</keyField>
+    <dataPathField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.PredefinedDataName</dataPathField>
+    <characteristicValues>InformationRegister.ЗначенияСвойствНоменклатуры</characteristicValues>
+    <objectField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.НаборСвойств</objectField>
+    <typeField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.ВидСвойства</typeField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
