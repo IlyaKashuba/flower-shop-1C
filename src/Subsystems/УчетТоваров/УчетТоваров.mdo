@@ -18,4 +18,5 @@
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>AccumulationRegister.СтоимостьТоваров</content>
+  <content>Task.Задачи</content>
 </mdclass:Subsystem>

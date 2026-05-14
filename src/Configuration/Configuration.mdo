@@ -53,6 +53,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <enums>Enum.УсловияХранения</enums>
+  <enums>Enum.СостоянияЗадачи</enums>
   <reports>Report.ОстаткиТоваров</reports>
   <reports>Report.РеестрДокументовПродажа</reports>
   <reports>Report.ВыручкаПоКассирам</reports>
@@ -63,4 +64,5 @@
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>
