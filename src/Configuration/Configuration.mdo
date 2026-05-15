@@ -50,6 +50,7 @@
   <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
   <documents>Document.СборкаБукета</documents>
   <documents>Document.Продажа</documents>
   <documents>Document.ПриходнаяНакладная</documents>
@@ -62,11 +63,15 @@
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.Универсальный</reports>
   <reports>Report.ВыручкаПоТоварам</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
   <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>

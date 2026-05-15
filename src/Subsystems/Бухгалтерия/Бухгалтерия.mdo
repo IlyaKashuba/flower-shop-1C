@@ -18,4 +18,8 @@
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.СтоимостьТоваров</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.Основной</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
 </mdclass:Subsystem>

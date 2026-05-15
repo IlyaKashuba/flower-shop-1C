@@ -23,7 +23,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СборкаБукета.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7d1c8f59-3475-4749-b04a-6cecc05fedc8">
@@ -80,6 +82,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b002ba57-ab06-406c-b116-dddf09d8f22e">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="91cf38d6-6e50-4fd6-8a1a-9edcfc71133b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="9595f0cb-90e9-46ab-a5d5-7b0824351e4f">
     <producedTypes>
       <objectType typeId="de72178d-a2f2-491f-93ca-a9ce0e7d15f1" valueTypeId="eabc5e03-12f7-4e69-90a5-577e6b96853f"/>
@@ -91,10 +121,10 @@
       <value>Состав букета</value>
     </synonym>
     <attributes uuid="40b1b646-76c9-4727-a42a-d58814e33c56">
-      <name>Товар</name>
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Товар</value>
+        <value>Номенклатура</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
@@ -121,6 +151,42 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6145ff16-9892-43e5-b4f7-60d5df15ee2a">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3371be1-ab4e-4ea1-8927-c2051b94c3f6">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
