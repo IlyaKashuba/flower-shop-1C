@@ -10,12 +10,12 @@
     <value>Оборотно-сальдовая ведомость</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ОборотноСальдоваяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="a9561669-dda9-4c49-954e-e0c7389d22a8">
-    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+  <mainDataCompositionSchema>Report.ОборотноСальдоваяВедомость.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="b6c80896-fe40-4683-ae6c-0e70a56f9614">
+    <name>Макет</name>
     <synonym>
       <key>ru</key>
-      <value>Основная схема компоновки данных</value>
+      <value>Макет</value>
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
